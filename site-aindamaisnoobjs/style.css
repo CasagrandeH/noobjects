@@ -2,7 +2,7 @@
 
 * {
     font: normal 15pt Aria, Helvetica, sans-serif;
-    padding: 0;
+    padding: 4px;
     margin: 0;
 }
 
@@ -23,17 +23,13 @@ header > h1 {
 
 section {
     text-align: left;
-    width: 600px;
+    width: 800px;
     height: auto;
     background-color: white;
     margin: auto;
     border-radius: 10px;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.508);
     text-shadow: none;
-}
-
-div {
-    padding: 20px;
 }
 
 #txtano {

@@ -27,7 +27,7 @@ function confirm() {
         window.alert(`[ERRO] Nascimento inválido!`)
         
     } else {
-        res.innerHTML = `<p>Você ser ${gender} de ${age} anos!</p><br><img src="../../imgs/png/the${gender}.png" alt="${gender}">`
+        res.innerHTML = `<p>Você ser ${gender} de ${age} anos!</p><br><img src="../png/the${gender}.png" alt="${gender}">`
     }
     
 }
