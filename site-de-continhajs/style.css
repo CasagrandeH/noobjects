@@ -45,6 +45,7 @@ input {
     color: white;
     border-color: white;
     background: linear-gradient(to right, tomato, brown);
+    padding: 2px;
 }
 
 button {
@@ -63,10 +64,16 @@ button:hover {
     color: tomato;
 }
 
-div#cont {
+div#res {
     font: italic 14pt Arial, Helvetica, sans-serif;
     color: brown;
     padding: 20px;
+    text-align: left;
+}
+
+span {
+    display: inline-block;
+    padding: 2px 4px;
 }
 
 footer > p {

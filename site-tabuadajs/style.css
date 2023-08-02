@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+:root {
+    --fonte: Arial, Verdana, Helvetica, sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.512);
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(to right bottom, rgb(183, 0, 46), rgb(255, 0, 43));
+    position: relative;
+}
+
+header {
+    padding-top: 5vh;
+}
+
+header > h1 {
+    color: white;
+    text-align: center;
+    font-family: var(--fonte);
+    font-size: 3.4em;
+}
+
+main {
+    width: 50vw;
+    height: 50vh;
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+div#info > label {
+    font-family: var(--fonte);
+    font-size: 1.2em;
+    font-style: italic;
+    line-height: 3.4em;
+    color: rgb(183, 0, 46);
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.41);
+}
+
+div#info > input {
+    background: linear-gradient(to left, rgb(183, 0, 46), rgb(255, 0, 43));
+    width: 10.5vw;
+    border: ridge 4px rgb(246, 246, 246);
+    border-radius: 4px;
+    box-shadow: inset 1px 1px 6px 3px rgba(0, 0, 0, 0.413);
+    padding: 3.5px;
+    color: white;
+    font-style: italic;
+    font-family: var(--fonte);
+    margin-left: 10px;
+}
+
+div#info > button {
+    border: outset 4px rgb(157, 0, 39);
+    color: white;
+    font-family: var(--fonte);
+    font-weight: bold;
+    background-color: rgb(183, 0, 46);
+    border-radius: 4px;
+    margin-left: 15px;
+}
+
+div#info > button:hover {
+    border: outset 4px rgb(198, 198, 198);
+    color: rgb(183, 0, 46);
+    background-color: white;
+}
+
+select#res {
+    background: linear-gradient(to right bottom, rgba(183, 0, 46, 0.955), transparent);
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 0px rgb(0, 0, 0);
+    padding: 4px;
+    border: outset 4px rgb(183, 0, 46);
+    border-radius: 4px;
+    font-family: var(--fonte);
+    overflow: auto;
+}
+
+select#res > option {
+    color: black;
+}
+
+footer {
+    margin: 73vh auto auto auto;
+    text-align: center;
+    font-family: var(--fonte);
+    font-style: italic;
+    color: white;
+    font-size: 1.2em;
+    
+}
